@@ -1,0 +1,68 @@
+// Variaveis globais
+$cor-principal: #4a90d9;
+$cor-fundo: #111;
+$cor-texto: #f0f0f0;
+
+// Cores principais do site 
+body {
+    background-color: $cor-fundo;
+    color: $cor-texto;
+}
+
+// Barra de navegação
+.navbar {
+    background-color: #1a1a1a;
+
+    .nav-link {
+        color: $cor-texto;
+
+        &:hover {
+            color: $cor-principal;
+        }
+    }
+}
+
+// Cartões do site
+.card {
+    border: 2px solid $cor-principal;
+    background-color: #1a1a1a;
+    color: $cor-texto;
+}
+
+// Estilo do site em geral
+#home {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/banner.jpg') center/cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#sobre {
+    padding: 80px 0;
+}
+
+#servicos {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#depoimentos {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#contato {
+    padding: 80px 0;
+}
+
+.btn-primary {
+    background-color: $cor-principal;
+    border-color: $cor-principal;
+
+    &:hover {
+        background-color: darken($cor-principal, 10%);
+        border-color: darken($cor-principal, 10%);
+    }
+}

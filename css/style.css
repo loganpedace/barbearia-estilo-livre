@@ -1,0 +1,58 @@
+body {
+  background-color: #111;
+  color: #f0f0f0;
+}
+
+.navbar {
+  background-color: #1a1a1a;
+}
+.navbar .nav-link {
+  color: #f0f0f0;
+}
+.navbar .nav-link:hover {
+  color: #4a90d9;
+}
+
+.card {
+  border: 2px solid #4a90d9;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/banner.jpg") center/cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#sobre {
+  padding: 80px 0;
+}
+
+#servicos {
+  padding: 80px 0;
+  text-align: center;
+}
+
+#depoimentos {
+  padding: 80px 0;
+  text-align: center;
+}
+
+#contato {
+  padding: 80px 0;
+}
+
+.btn-primary {
+  background-color: #4a90d9;
+  border-color: #4a90d9;
+}
+.btn-primary:hover {
+  background-color: rgb(41.6438356164, 118.3561643836, 198.3561643836);
+  border-color: rgb(41.6438356164, 118.3561643836, 198.3561643836);
+}
+
+/*# sourceMappingURL=style.css.map */
